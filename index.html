@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BNI組隊計畫 × 免費建站漏斗｜策略筆記</title>
+<meta name="robots" content="noindex, nofollow">
+<style>
+  :root{
+    --bg:#0f1115; --card:#171a21; --line:#262a33;
+    --text:#e8e9ec; --sub:#a0a6b2; --accent:#d4af37;
+    --accent2:#5b8cff; --warn:#e0a96d; --good:#6fbf73;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; font-family:-apple-system,"PingFang TC","Noto Sans TC",sans-serif;
+    background:var(--bg); color:var(--text); line-height:1.75;
+    padding:0 0 80px;
+  }
+  header{
+    padding:48px 20px 28px; text-align:center;
+    border-bottom:1px solid var(--line);
+  }
+  header .tag{color:var(--accent); font-size:13px; letter-spacing:2px; margin-bottom:10px}
+  header h1{font-size:26px; margin:0 0 10px; font-weight:700}
+  header p{color:var(--sub); font-size:14px; margin:0}
+  main{max-width:760px; margin:0 auto; padding:0 20px}
+  section{margin-top:44px}
+  h2{
+    font-size:19px; color:var(--accent); border-left:4px solid var(--accent);
+    padding-left:12px; margin-bottom:18px;
+  }
+  h3{font-size:16px; color:var(--text); margin:22px 0 8px}
+  .card{
+    background:var(--card); border:1px solid var(--line); border-radius:12px;
+    padding:18px 20px; margin-bottom:14px;
+  }
+  .card.center-line{border-left:3px solid var(--accent2)}
+  .card.risk{border-left:3px solid var(--warn)}
+  p{margin:8px 0; font-size:15px}
+  ul{margin:8px 0; padding-left:20px}
+  li{margin:6px 0; font-size:15px}
+  .pillars{display:grid; grid-template-columns:1fr; gap:12px}
+  @media(min-width:640px){.pillars{grid-template-columns:1fr 1fr}}
+  .pillar h4{margin:0 0 6px; font-size:15px; color:var(--accent2)}
+  .pillar.locked{opacity:0.65}
+  .flow-step{
+    display:flex; gap:14px; align-items:flex-start;
+    background:var(--card); border:1px solid var(--line); border-radius:12px;
+    padding:16px 18px; margin-bottom:12px;
+  }
+  .flow-step .num{
+    flex:none; width:30px; height:30px; border-radius:50%;
+    background:var(--accent2); color:#0f1115; font-weight:700;
+    display:flex; align-items:center; justify-content:center; font-size:14px;
+  }
+  .flow-step h4{margin:0 0 6px; font-size:16px}
+  .flow-step p{margin:4px 0; font-size:14px; color:var(--sub)}
+  .flow-arrow{text-align:center; color:var(--accent2); font-size:20px; margin:-4px 0}
+  .quote{
+    font-style:normal; color:var(--accent);
+    font-size:16px; border-left:3px solid var(--accent);
+    padding-left:14px; margin:14px 0;
+  }
+  .badge{
+    display:inline-block; font-size:12px; padding:3px 10px;
+    border-radius:20px; margin-right:6px; margin-bottom:6px;
+  }
+  .badge.done{background:rgba(111,191,115,.15); color:var(--good)}
+  .badge.open{background:rgba(224,169,109,.15); color:var(--warn)}
+  .open-list li{margin:10px 0}
+  .open-list b{color:var(--warn)}
+  footer{
+    max-width:760px; margin:60px auto 0; padding:20px;
+    border-top:1px solid var(--line); color:var(--sub); font-size:13px; text-align:center;
+  }
+  a{color:var(--accent2)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="tag">內部策略筆記 · 非公開頁面</div>
+  <h1>BNI 組隊計畫 × 免費建站漏斗</h1>
+  <p>大樹教練工作筆記　整理日期 2026-09-15</p>
+</header>
+
+<main>
+
+<section>
+  <h2>一、背景：與 GPT 第一輪對話確立的定位框架</h2>
+  <p>2026-09-05 與 GPT 的對話已經建立一套完整的戰略定位，第二輪的兩項深度研究（BNI 機制拆解、政府資源地圖）尚未實際執行，目前這套框架是「定位共識＋待辦清單」，不是已完成的研究報告。</p>
+
+  <div class="card center-line">
+    <h3 style="margin-top:0">北極星</h3>
+    <p class="quote">讓企業主在還沒有加入 BNI 以前，就先感受到「AI × BNI × 教育訓練」所帶來的企業成長力量。</p>
+    <p>而不是「請加入 BNI」——先給價值 → 建立信任 → 產生認知差異 → 產生嚮往 → 最後加入。</p>
+  </div>
+
+  <h3>核心問題（不是人口問題，是認知問題）</h3>
+  <p>不是「台灣沒有企業家可以加入 BNI」，而是「市場對 BNI 的認知已經飽和」——很多人聽過、有朋友在、甚至當過來賓，但「知道」不等於「理解怎麼用 BNI 讓企業成長」。要突破的是<b>認知市場</b>，不是人口市場。</p>
+
+  <h3>三大支柱（第四支柱待研究）</h3>
+  <div class="pillars">
+    <div class="card pillar">
+      <h4>① BNI</h4>
+      <p>結構化商務人脈、信任關係、引薦、紀律、承諾、教育訓練、長期合作。全球 355,000+ 會員、11,800+ 分會、78 國，過去 12 個月引薦金額超過 269 億美元。</p>
+    </div>
+    <div class="card pillar">
+      <h4>② AI</h4>
+      <p>不是「我們也會用 AI」，而是「AI 已真正融入大樹團隊日常營運」——開發票、來賓管理、出席管理、行政、思考、內容產製、企業經營、教育訓練。優勢是把 AI 從工具變成組織的生產力。</p>
+    </div>
+    <div class="card pillar">
+      <h4>③ 教育訓練（最大護城河）</h4>
+      <p>不是「BNI 執行董事 + 會用 AI」，而是「BNI 執行董事 × AI 實踐者 × 職業培訓講師」。強項是把一群普通人訓練成有戰鬥力的團隊——「將軍手下沒有兵」「英雄無用武之地」。</p>
+    </div>
+    <div class="card pillar locked">
+      <h4>④ 政府資源（尚未研究，待補）</h4>
+      <p>目標路徑：企業診斷 → AI 導入 → 政府資源 → 教育訓練 → 人脈資源 → BNI。這一支柱能不能成立，需要實際查證 2026 台灣政府 AI／數位轉型資源後才能確認。</p>
+    </div>
+  </div>
+
+  <h3>值得保留的品牌語言</h3>
+  <ul>
+    <li>「AI 天才兒童」——天才：能極短時間扮演律師/顧問/心理學家/研究員/老師等角色；兒童：能給建議但不能替你過人生（要不要加入 BNI 這種決定，責任仍在自己）</li>
+    <li>「每個人都希望被聽見，但真正願意好好聽的人很少」——AI 的價值不只是做事，還包括陪你思考、把模糊的東西變清楚，甚至保留一個人的人生智慧</li>
+    <li class="quote" style="display:block">大樹不是在找會員，而是在培養企業家。</li>
+  </ul>
+</section>
+
+<section>
+  <h2>二、今天的新構想（2026-09-15）</h2>
+  <p>如果對方願意填寫資料，就免費先為他製作企業品牌形象網站／個人品牌網站（已有 20 幾個大台南會展中心案例佐證，成果不錯），以此為誘因換取深聊機會。深聊時攤開大台南南區 BNI 會員資源——跨領域專業人士組隊，讓對方評估跟教練組隊的好處，加速快速組隊計畫。</p>
+  <p><b>整體判斷：</b>這不是另起新方案，而是把北極星框架裡還停留在紙上的抽象轉化路徑（企業診斷 → AI 導入 → … → 人脈資源 → BNI）第一次具象成可以馬上執行的動作。而且比框架本身更強，因為已經有真實案例佐證，不是空談。這也剛好在實踐 BNI 自己的核心文化——Givers Gain（先付出，後收穫）。</p>
+</section>
+
+<section>
+  <h2>三、teamwork 頁面的定位判斷</h2>
+  <p>現有頁面：<a href="https://coach1973.github.io/teamwork/" target="_blank">coach1973.github.io/teamwork</a>（發布於 2026-07-20）—— 已經是成熟、有渲染力的組隊招募敘事：AI 浪潮、水電師傅/博士/音樂老師三個故事、RPG 角色分工、BNI 全球數據、疑慮拆解、真實案例、紀律與榮譽、一年 5 億引薦金額目標。</p>
+  <div class="card risk">
+    <p><b>關鍵判斷：這是「重砲」，但擺錯位置會炸到自己。</b></p>
+    <p>頁面語言門檻很高（紀律的遊戲、52 週出席、一年 5 億），是在跟「已經有心理準備拼事業」的人對話，不是跟剛留資料、還在觀望的陌生人對話。流程最前面不能直接丟這頁，會嚇退原本可以慢慢培養的人。</p>
+    <p>頁面上明白寫「我們不是……吃喝玩樂的人情消費」——免費建站這個誘因如果措辭沒抓好，容易被解讀成「送禮攻心」，跟頁面自己想撇清的東西正好衝突。階段一文案要守住：這是專業服務先行，不是人情操作。</p>
+  </div>
+  <p><b>結論：</b>teamwork 頁面不該放在流程最前面，應該放在信任已經建立之後的深聊階段，當作重砲使用。免費建站才是前面那個輕量、無壓力的敲門磚。</p>
+</section>
+
+<section>
+  <h2>四、建議的四階段流程</h2>
+
+  <div class="flow-step">
+    <div class="num">1</div>
+    <div>
+      <h4>留資料（輕量入口，不談 BNI）</h4>
+      <p>文案主打「免費幫你的品牌做一個網站」，隻字不提 BNI 或組隊。</p>
+      <p>表單同時做兩件事：收建站需要的素材（品牌故事、想呈現的形象）＋ 順便埋 2-3 題輕量的企業現況/成長瓶頸問題——對方感覺是在填網站需求單，教練拿到的是「這個人適不適合組隊」的初步線索。</p>
+    </div>
+  </div>
+  <div class="flow-arrow">↓</div>
+
+  <div class="flow-step">
+    <div class="num">2</div>
+    <div>
+      <h4>建站交付（兌現承諾，建立信任的關鍵時刻）</h4>
+      <p>依 20 幾個案例的水準做完、交付，給交付一個儀式感（正式上線、親自展示），這是對方信任感最高的時刻，不要交付完就冷掉。</p>
+      <p>交付時順口帶一句這網站是怎麼用 AI 快速做出來的——不強推，只是先埋種子，讓教育訓練這支柱先露臉。</p>
+    </div>
+  </div>
+  <div class="flow-arrow">↓</div>
+
+  <div class="flow-step">
+    <div class="num">3</div>
+    <div>
+      <h4>深聊組隊構想（這時候才拿出 teamwork 頁面）</h4>
+      <p>約一次面對面或視訊，先確認網站滿不滿意、收尾第一階段承諾，再自然帶到：「這個網站其實是我們一群跨領域夥伴一起在做的事情之一，我這邊有一份公開的計畫想讓你看看」，這時候丟 teamwork 連結，力道才對——對方已經先體驗過真本事，不是空口說白話。</p>
+    </div>
+  </div>
+  <div class="flow-arrow">↓</div>
+
+  <div class="flow-step">
+    <div class="num">4</div>
+    <div>
+      <h4>成為夥伴（收尾）</h4>
+      <p>teamwork 頁面 CTA 是「我想了解如何加入這個獨一無二的團隊」，要接到具體行動——來賓體驗分會會議，或跟教練一對一面談。用既有 BNI 來賓管理 SOP 串接，不用重新發明。</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>五、待決的五塊拼圖（決定閉環細節怎麼畫）</h2>
+  <div class="card">
+    <ul class="open-list">
+      <li><b>篩選機制</b> — 免費網站是強誘因，會吸引到只想拿網站、沒興趣談組隊的人。「填寫資料」若只收聯絡方式，篩不出誰是真正的潛力候選人。</li>
+      <li><b>揭露時機</b> — 太早提 BNI/組隊，免費網站會被當成銷售話術的鉤子；太晚提，對方可能拿了就走。目前建議：網站先無條件做完交付，深聊在交付後的會面裡自然發生。</li>
+      <li><b>產能規模</b> — 20 幾個案例是「大台南會展中心計畫」脈絡下完成的。現在要常態化開放給任何人，還是鎖定名單、主動邀請、限量供應？決定整個閉環的量體，也決定要不要先把 AI 輔助生產流程做成 SOP。</li>
+      <li><b>教育訓練支柱斷線</b> — 目前構想主要走「AI 導入 → 人脈資源」這條線，跳過了教育訓練。要不要在深聊/交付過程中順便帶出培訓能力展示，讓四支柱都在同一個漏斗裡被感受到？</li>
+      <li><b>對外語言一致性</b> — 免費建站的邀約文案，措辭要圍繞「幫你的品牌先站起來」，不能落回「認識一下 BNI」的老框架，BNI/南區資源要等信任建立後才自然帶出。</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>六、下一步可執行選項</h2>
+  <p><span class="badge open">待起草</span> 階段一留資料表單的具體問題設計</p>
+  <p><span class="badge open">待起草</span> 階段三深聊時的話術/流程稿</p>
+  <p><span class="badge open">待研究</span> GPT 框架原訂的兩項深度研究——BNI 40 年成功機制拆解、2026 台灣政府 AI/數位轉型資源地圖</p>
+</section>
+
+</main>
+
+<footer>
+  本頁為教練內部工作筆記，未加入任何公開導覽或索引，僅供教練本人透過此網址查閱。<br>
+  內容隨對話進展持續更新。
+</footer>
+
+</body>
+</html>
